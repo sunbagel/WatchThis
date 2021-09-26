@@ -1,0 +1,41 @@
+{
+    "name": "Watch This!",
+    "description": "Jett Google Assistant",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "icons": {
+        "128": "/img/JettIcon.png"
+    },
+    "background": {
+        "scripts": ["/background.js"]
+
+        
+    },
+    "content_scripts": [ {
+        "matches":["<all_urls>"],
+        "js": [
+            "content.js"
+        ],
+        "css":["./testing.css"]
+            
+        
+     }],
+     "web_accessible_resources": [
+        "foreground.js",
+        "/node_modules./animejs./lib./anime.es.js"
+     ],
+    "options_page": "/options.html",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "https://www.google.com/*"
+    ]
+
+
+
+
+}

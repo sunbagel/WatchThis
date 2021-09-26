@@ -1,0 +1,39 @@
+/* .spinspinspin {
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+} */
+
+.jett {
+  width: 250px;
+  height: 250px;
+  background: url("https://media.giphy.com/media/6jEwDmzpCIhsjDEinK/giphy.gif?cid=790b7611f6284d9da30914b4185c02b34e456dab842facf8&rid=giphy.gif&ct=s");
+  background-size: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.walkRight {
+  background: url("https://media.giphy.com/media/BB0XDFNiS3Fo0yfgy0/giphy.gif?cid=790b76119ff2bdc67fd9ab452024fea1b645c807fbde158e&rid=giphy.gif&ct=s");
+  background-size: 250px;
+}
+
+.walkLeft {
+  background: url("https://media.giphy.com/media/eheTQBAltXsZr6u4Nw/giphy.gif?cid=790b76116664807e8778f780b940067fb2afe73df95cb81c&rid=giphy.gif&ct=s");
+  background-size: 250px;
+}
+
+.dash {
+  background: url("https://media.giphy.com/media/cch68xYCJpWKzvcC06/giphy.gif?cid=790b76110c2cfa9e177e82df3313644cb2a9c32711a8c9d3&rid=giphy.gif&ct=s");
+  background-size: 250px;
+}
+
+/* @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1440deg);
+  }
+} */
